@@ -1,0 +1,17 @@
+@keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .bounce-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .bounce-hover:hover {
+    transform: translateY(-5px);
+  }
